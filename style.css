@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	background: #EBEBEB;
+    color: #909090;
+}
+/* Minimal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+h1{
+    font-size: 31.25rem;
+}
+h5{
+    font-size: 1rem;
+    font-weight: bold;
+}
+h6{
+    font-size: .875rem;
+    font-weight: bold;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.heading-black{
+    color: #1f1f1f;
+}
+.heading-red{
+    color: #ee2034;
+}
+.heading-gray{
+    color: #a4a4a4;
+}
+.btn {
+    background-color: #FFFF;
+    border: 5px solid #ee2034;
+    padding: 10px 60px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ee2034;
+}
+.btn-small {
+    color: #bababa;
+    padding: 5px 25px;
+    border: 3px solid #bababa;;
+    font-weight: bold;
+    font-size: 12px;
+}
+.container {
+    max-width: 73.125rem;
+    margin: 0 auto;
+}
+
+section{
+    margin-top: 100px;
+}
+
+/* Our Services */
+
+section {
+    padding-top: 20px;
+}
+
+.Our-service {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.service-des {
+    background-color: #FFFFFF;
+    padding: 22px;
+}
+.services {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.service img {
+    height: 215px;
+    width: 100%;
+}
+.service-des {
+    background-color: #FFFFFF;
+    padding: 80px 30px;
+    margin: 0 auto;
+}
+.service-des h5{
+    margin-bottom: 20px;
+}
+.service-des p {
+    font-size: 12px;
+}
+.service-des button{
+    margin-top: 20px;
+}
+.service {
+    width: 270px;
+    background: #FFFFFF;
+    transform: scaleY(1.1);
+    box-shadow: 5px -3px 15px 13px #E3E3E3;
+}
+
+.service-des h5 {
+    font-weight: bold;
+}
+.service-content {
+    padding: 30px;
+}
+
+.service-content h6 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.service-content p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.service-des .btn-small {
+    margin-top: 20px;
+}
+
+.service:hover {
+    background: #ee2034;
+    color: white;
+}
+
+.service:hover .service {
+    color: white;
+}
+
+.service:hover .service-content h6,.service:hover .service-content p {
+    color: white;
+}
+
+.service:hover .btn-small {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #EE2034;
+}
